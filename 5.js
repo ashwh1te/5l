@@ -11,7 +11,7 @@ function onClick(e) {
         result.value = price[item.value] * count.value + '₽'
     }
     else {
-        alert('для ввода доступны только числа')
+        alert('Для ввода доступны только числа!!')
     }
     e.preventDefault()
 }
