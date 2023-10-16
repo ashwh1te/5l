@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function onClick(e) {
-    const price = [3.900.000, 6.700.000, 1.600.000]
+    const price = [3900000, 6700000, 1600000]
     const item = document.getElementById('select1')
     const count = document.getElementById('Count1')
     let result = document.getElementById('result')
