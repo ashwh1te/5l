@@ -8,10 +8,10 @@ function onClick(e) {
     const count = document.getElementById('Count1')
     let result = document.getElementById('result')
     if (/^\d+$/.test(count.value)) {
-        result.value = price[item.value] * count.value + '₽'
+        result.value = price[item.value] * count.value + 'RUB'
     }
     else {
-        alert(' Для ввода доступны только числа!! ')
+        alert('Для ввода доступны только числа!!')
     }
     e.preventDefault()
 }
