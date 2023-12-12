@@ -8,7 +8,7 @@
 header
 {
     max-width: 100%;
-    background-color: #4b1e79;
+    background-color: #6d3ba1;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -69,6 +69,12 @@ li {
 p{
     color:#999999
 }
+
+.p-5 {
+    background-color: #c2a4c9;
+    padding: 2rem!important;
+}
+
 footer
 {
     background-color: #4b1e79;
